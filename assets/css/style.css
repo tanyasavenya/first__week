@@ -1,0 +1,36 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.logo{
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav{
+    display: inline-block;
+}
+.nav__list{}
+.nav__item{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav__link{
+    /* font-family: Roboto; */
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.nav__link:hover,
+.nav__link.active{
+    color: #34547A;
+}
